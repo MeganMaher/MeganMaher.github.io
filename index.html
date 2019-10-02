@@ -43,6 +43,19 @@ hello
       <v-toolbar-title>hello</v-toolbar-title>
     </v-app-bar>
 
+     <v-parallax
+    dark
+    src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
+  >
+    <v-row
+      align="center"
+      justify="center"
+    >
+      <h1 class="display-2 font-weight-thin mb-4">HELLO</h1>
+      <h4 class="subheading">hello!</h4>
+    </v-row>
+  </v-parallax>
+
     <v-content>
       <v-container
         class="fill-height"
@@ -52,21 +65,7 @@ hello
           align="center"
           justify="center"
         >
-          <v-col class="text-center">
-            <v-tooltip left>
-              <template v-slot:activator="{ on }">
-                <v-btn
-                  :href="source"
-                  icon
-                  large
-                  target="_blank"
-                  v-on="on"
-                >
-                  <v-icon large>mdi-code-tags</v-icon>
-                </v-btn>
-              </template>
-              <span>Source</span>
-            </v-tooltip>
+
 
 
 
